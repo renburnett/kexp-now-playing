@@ -42,10 +42,8 @@ def now_playing_song():
     print(speech)
     return statement(speech)
 
-
 if __name__ == '__main__':
     app.run()
-
 
 # @ask.intent("StatsIntent")
 # def stats():
