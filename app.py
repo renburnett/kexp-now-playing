@@ -44,24 +44,3 @@ def now_playing_song():
 
 if __name__ == '__main__':
     app.run()
-
-# @ask.intent("StatsIntent")
-# def stats():
-#     r = requests.get(ENDPOINT)
-#     songs_json = r.json()
-
-    # if r.status_code == 200:
-    #     repo_name = ENDPOINT.split('/')[-1]
-    #     keys = ['stargazers_count', 'subscribers_count', 'forks_count']
-    #     stars, watchers, forks = itemgetter(*keys)(repo_json)
-    #     speech = "{} has {} stars, {} watchers, and {} forks. " \
-    #         .format(repo_name, stars, watchers, forks)
-    # else:
-    #     message = repo_json['message']
-    #     speech = "There was a problem calling the GitHub API: {}.".format(message)
-
-    # logger.info('speech = {}'.format(speech))
-    # return statement(speech)
-
-# if __name__ == '__main__':
-#     app.run()
