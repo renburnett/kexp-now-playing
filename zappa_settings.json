@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "app.app",
+        "aws_region": "us-west-2",
+        "profile_name": "default",
+        "project_name": "kexp-lambda",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-pl79ey0ni"
+    }
+}
